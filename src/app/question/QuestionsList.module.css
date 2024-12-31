@@ -1,0 +1,451 @@
+/* .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .addParentButton {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .addParentButton:hover {
+    background-color: #218838;
+  }
+  
+  .accordion {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+  }
+  
+  .parent:hover {
+    background-color: #e9ecef;
+  }
+  
+  .children {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  .child {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .subChild {
+    margin-left: 20px;
+    padding: 5px 0;
+    color: #555;
+  }
+  
+  .addChildButton {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .addChildButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /* .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .addParentButton {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addParentButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .accordion {
+    background-color: #fff;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .parent,
+  .childContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .parent span,
+  .childContent span {
+    font-size: 16px;
+    color: #555;
+    flex-grow: 1;
+  }
+  
+  .radioButtons {
+    margin-left: 20px;
+  }
+  
+  .radioButtons label {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .radioButtons input {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .addChildButton {
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addChildButton:hover {
+    background-color: #218838;
+  }
+  
+  .children,
+  .grandChildren {
+    margin-left: 20px;
+    padding-top: 10px;
+  }
+  
+  .child,
+  .subChild {
+    padding: 8px 0;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .heading {
+      font-size: 24px;
+    }
+  
+    .addParentButton {
+      font-size: 14px;
+      padding: 8px 12px;
+    }
+  
+    .parent span,
+    .childContent span {
+      font-size: 14px;
+    }
+  
+    .radioButtons label {
+      font-size: 12px;
+    }
+  
+    .addChildButton {
+      font-size: 12px;
+      padding: 5px 8px;
+    }
+  }
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .addParentButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+  }
+  
+  .addParentButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .questionsTree {
+    margin-top: 20px;
+  }
+  
+  .questionNode {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  .questionContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .radioButtons label {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .radioButtons input {
+    margin-right: 5px;
+  }
+  
+  .addChildButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addChildButton:hover {
+    background-color: #218838;
+  }
+  
+  .children {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .error {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+   
+
+
+
+
+
+/* 
+
+   .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .addParentButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+  }
+  
+  .addParentButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .questionsTree {
+    margin-top: 20px;
+  }
+  
+  .questionNode {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+  }
+  
+  .questionContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .radioButtons label {
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  
+  .radioButtons input {
+    margin-right: 5px;
+  }
+  
+  .addChildButton {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addChildButton:hover {
+    background-color: #218838;
+  }
+  
+  .deleteButton {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .deleteButton:hover {
+    background-color: #c0392b;
+  }
+  
+  .children {
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .error {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+   */
